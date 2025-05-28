@@ -119,7 +119,7 @@ class LinkedList:
             while(current_node):
                 size = size+1
                 current_node = current_node.next
-                return size
+            return size
         else:
             return 0
 

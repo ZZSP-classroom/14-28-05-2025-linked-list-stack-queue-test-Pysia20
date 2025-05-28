@@ -1,0 +1,59 @@
+### Exercise 1: Library Book Reservation System
+
+**Description:**  
+Implement a reservation system for books in a library using a queue. Users should be able to add a reservation, cancel their reservation, and view the next reservation in line.
+
+**Requirements:**
+- Implement a Queue class with methods: `enqueue`, `dequeue`, and `peek`.
+- Ensure the queue works with reservation objects that have attributes: `user_name`, `book_title`.
+- Write unit tests to verify the order of reservations and that dequeue removes the correct reservation.
+
+Structure:
+-->library_reservation.py - main application
+-->library_tests.py - unit tests
+-->README.md - add your name and surname into already created README.md
+
+### Exercise 2: Browser History Management
+
+**Description:**  
+Create a stack to manage browser history navigation. Each webpage visited should be pushed onto a stack, and the last page should be popped when going back.
+
+**Requirements:**
+- Implement a Stack class with methods: `push`, `pop`, and `peek`.
+- Each stack element should be a string representing a webpage URL.
+- Write unit tests to ensure the stack correctly handles back navigation.
+
+Structure:
+-->browser_history.py - main application
+-->browser_tests.py - unit tests
+-->README.md - add your name and surname into already created README.md
+
+### Exercise 3: Customer Support Ticket System
+
+**Description:**  
+Simulate a customer support ticket system where tickets are managed using a combination of a queue (for new tickets) and a stack (for tickets being processed).
+
+**Requirements:**
+- Implement a Queue for incoming tickets and a Stack for tickets being processed.
+- Each ticket should be an object with attributes: `ticket_id`, `issue_description`.
+- Write unit tests to ensure tickets are managed correctly between the queue and stack.
+
+Structure:
+-->support_ticket.py - main application
+-->support_ticket_tests.py - unit tests
+-->README.md - add your name and surname into already created README.md
+
+### Exercise 4: Playlist Management System
+
+**Description:**  
+Develop a playlist system that uses a linked list to manage song order. Songs should be added to the playlist, removed when played, and viewed to see the next song.
+
+**Requirements:**
+- Implement a LinkedList class with methods: `add_song`, `remove_song`, and `get_next_song`.
+- Each node in the linked list should represent a song with attributes: `title`, `artist`.
+- Write unit tests to ensure songs are managed correctly in the linked list.
+
+Structure:
+-->playlist_manager.py - main application
+-->playlist_tests.py - unit tests
+-->README.md - add your name and surname into already created README.md
